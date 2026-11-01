@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nexacart
+  labels:
+    app.kubernetes.io/name: nexacart
+    app.kubernetes.io/part-of: nexacart-ai
+

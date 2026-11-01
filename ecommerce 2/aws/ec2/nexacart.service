@@ -1,0 +1,37 @@
+# =======================================================
+# NexaCart AI - Systemd Service Configuration
+# Install to: /etc/systemd/system/nexacart.service
+# Commands:
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable nexacart
+#   sudo systemctl start nexacart
+#   sudo systemctl status nexacart
+# =======================================================
+
+[Unit]
+Description=NexaCart AI E-Commerce Backend Service
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/var/www/nexacart/server
+ExecStart=/usr/bin/node server.js
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nexacart-backend
+
+# Environment variables
+Environment=NODE_ENV=production
+Environment=PORT=5001
+# Replace DB_HOST with your AWS RDS Endpoint
+# Environment=DB_HOST=nexacart-mysql.c9xxxx.us-east-1.rds.amazonaws.com
+# Environment=DB_USER=admin
+# Environment=DB_PASSWORD=YourSecurePassword
+# Environment=DB_NAME=nexacart_db
+
+[Install]
+WantedBy=multi-user.target
+

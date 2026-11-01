@@ -1,0 +1,28 @@
+{
+  "name": "nexacart-ai",
+  "version": "1.0.0",
+  "description": "NexaCart AI - Premium AI-Themed E-Commerce Platform",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "ecommerce",
+    "ai",
+    "react",
+    "express",
+    "mysql",
+    "aws",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "NexaCart AI Team",
+  "license": "MIT"
+}
+

@@ -1,0 +1,539 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Commander",
+      "email": "admin@nexacart.ai",
+      "password": "$2a$10$IYnojRB.K4LxD/b54XCSqurrUAsYfeeZlZkz3C6/9oUQ064YYiaS.",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80",
+      "phone": "+91 98765 43210",
+      "address": "Nexa Research Labs, Tower B, Cyber City, Gurugram, HR 122002"
+    },
+    {
+      "id": 2,
+      "name": "Alex Vance",
+      "email": "alex@nexacart.ai",
+      "password": "$2a$10$IYnojRB.K4LxD/b54XCSqurrUAsYfeeZlZkz3C6/9oUQ064YYiaS.",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "phone": "+91 98110 12345",
+      "address": "Flat 402, Neo Tech Heights, Whitefield, Bengaluru, KA 560066"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Neural Processors & TPUs",
+      "slug": "neural-processors",
+      "description": "High-density tensor computing accelerators and quantum neural cores.",
+      "icon": "Cpu"
+    },
+    {
+      "id": 2,
+      "name": "Autonomous Robotics & Drones",
+      "slug": "autonomous-robotics",
+      "description": "Edge-intelligence drones, robotic arms, and autonomous rover units.",
+      "icon": "Bot"
+    },
+    {
+      "id": 3,
+      "name": "Smart Bio & Neuro Wearables",
+      "slug": "neuro-wearables",
+      "description": "Brain-computer interface headbands, haptic gloves, and biometric trackers.",
+      "icon": "Activity"
+    },
+    {
+      "id": 4,
+      "name": "Holographic & Vision Systems",
+      "slug": "vision-systems",
+      "description": "Light-field volumetric displays and multi-sensor spatial lidar rigs.",
+      "icon": "Eye"
+    },
+    {
+      "id": 5,
+      "name": "Edge AI & Smart Hubs",
+      "slug": "edge-hubs",
+      "description": "Zero-latency local neural inference servers and smart automation towers.",
+      "icon": "Server"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nexa Quantum NPU-900",
+      "slug": "nexa-quantum-npu-900",
+      "category_id": 1,
+      "category_name": "Neural Processors & TPUs",
+      "price": 124999,
+      "original_price": 149999,
+      "stock": 17,
+      "rating": 4.95,
+      "reviews_count": 42,
+      "badge": "Bestseller",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+      "description": "The pinnacle of edge AI acceleration. Engineered with 980 Neural TOPS, dedicated FP8 matrix engines, and PCIe 5.0 architecture for instantaneous local LLM inference and transformer fine-tuning.",
+      "features": {
+        "TOPS (INT8)": "980 TOPS",
+        "Memory Bandwidth": "1.2 TB/s HBM3e",
+        "Power Envelope": "220W TDP (Fluid Cooled)",
+        "Architecture": "TensorVortx Gen 4",
+        "Compatibility": "PyTorch, ONNX, TensorRT, Jax"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Synapse Core X1 Module",
+      "slug": "synapse-core-x1-module",
+      "category_id": 1,
+      "category_name": "Neural Processors & TPUs",
+      "price": 53999,
+      "original_price": 62499,
+      "stock": 34,
+      "rating": 4.82,
+      "reviews_count": 28,
+      "badge": "Popular",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+      "description": "Compact 45W embedded coprocessor designed for drones, autonomous rovers, and real-time computer vision pipeline execution with sub-3ms latency.",
+      "features": {
+        "TOPS (INT8)": "145 TOPS",
+        "Memory": "32GB LPDDR5X Unified",
+        "Form Factor": "SODIMM 260-Pin Industrial",
+        "Power Envelope": "15W - 45W Dynamic",
+        "Vision Encoders": "Dual 8K 60FPS Hardware AV1"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cerebrum-4 Enterprise Blade",
+      "slug": "cerebrum-4-enterprise-blade",
+      "category_id": 1,
+      "category_name": "Neural Processors & TPUs",
+      "price": 409999,
+      "original_price": 449999,
+      "stock": 6,
+      "rating": 5,
+      "reviews_count": 14,
+      "badge": "Enterprise Spec",
+      "is_featured": false,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      "description": "Quad-core AI accelerator blade with interconnected NVLink-compatible mesh, capable of running 70B+ parameter models on-premises with air-gapped security.",
+      "features": {
+        "Aggregate Compute": "3,920 TOPS",
+        "Memory Pool": "256GB High-Bandwidth Memory",
+        "Form Factor": "1U Rackmount Server Blade",
+        "Networking": "Dual 400Gbps RoCEv2 InfiniBand",
+        "Cooling": "Direct Liquid Vapor Chamber"
+      }
+    },
+    {
+      "id": 4,
+      "name": "CyberDrone Vision 4K",
+      "slug": "cyberdrone-vision-4k",
+      "category_id": 2,
+      "category_name": "Autonomous Robotics & Drones",
+      "price": 107999,
+      "original_price": 124999,
+      "stock": 14,
+      "rating": 4.88,
+      "reviews_count": 31,
+      "badge": "New Era",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=800&q=80",
+      "description": "Fully autonomous hexacopter equipped with onboard LiDAR and neural computer vision for GPS-denied obstacle avoidance, 3D photogrammetry, and cinematic dynamic tracking.",
+      "features": {
+        "Flight Duration": "48 Minutes",
+        "Vision System": "360° Omnidirectional Stereo Vision + Solid-state LiDAR",
+        "Transmission Range": "15 KM Low-Latency Tri-Band",
+        "Max Speed": "85 km/h in Turbo AI Mode",
+        "Payload Capacity": "1.2 kg Quick-Release Gimbal"
+      }
+    },
+    {
+      "id": 5,
+      "name": "HexaBot Swarm Explorer",
+      "slug": "hexabot-swarm-explorer",
+      "category_id": 2,
+      "category_name": "Autonomous Robotics & Drones",
+      "price": 69999,
+      "original_price": 82999,
+      "stock": 22,
+      "rating": 4.75,
+      "reviews_count": 19,
+      "badge": "Trending",
+      "is_featured": false,
+      "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80",
+      "description": "Six-legged biomimetic robotic rover designed with swarm communication protocols. Ideal for rough-terrain exploration, pipe inspection, and research labs.",
+      "features": {
+        "Locomotion": "18 High-Torque Brushless Micro-Servos",
+        "Sensing": "Infrared TOF Array + Night Vision Dual Camera",
+        "Autonomy": "Mesh SLAM & Distributed Swarm AI",
+        "Battery Life": "4 Hours Continuous Patrol",
+        "Payload": "Top Mount Rail for Modular Sensors"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Nexa Bionic Cybernetic Arm",
+      "slug": "nexa-bionic-cybernetic-arm",
+      "category_id": 2,
+      "category_name": "Autonomous Robotics & Drones",
+      "price": 182999,
+      "original_price": 207999,
+      "stock": 9,
+      "rating": 4.91,
+      "reviews_count": 16,
+      "badge": "Pro Spec",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "description": "6-Degrees-of-Freedom desktop robotic manipulator featuring sub-millimeter repeatable precision, AI vision sorting, and haptic compliance mode.",
+      "features": {
+        "Degrees of Freedom": "6 Axis with Harmonic Gearheads",
+        "Repeatability": "±0.02 mm Precision",
+        "Max Payload": "3.5 kg at Full Reach",
+        "Software Interface": "ROS2, Python SDK, Web GUI",
+        "End Effectors": "Pneumatic Suction + Adaptive 2-Finger Gripper"
+      }
+    },
+    {
+      "id": 7,
+      "name": "NeuroSync Focus Band V2",
+      "slug": "neurosync-focus-band-v2",
+      "category_id": 3,
+      "category_name": "Smart Bio & Neuro Wearables",
+      "price": 32999,
+      "original_price": 37499,
+      "stock": 40,
+      "rating": 4.79,
+      "reviews_count": 53,
+      "badge": "Hot Seller",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80",
+      "description": "Next-generation non-invasive EEG headband that measures cognitive load, beta/theta wave activity, and adapts ambient light and audio to maintain peak focus flow.",
+      "features": {
+        "Sensors": "8 Medical-grade Ag/AgCl Dry Electrodes",
+        "Sample Rate": "1,000 Hz Raw EEG Sampling",
+        "Battery": "14 Hours Active Streaming",
+        "Feedback": "Subtle Haptic Micro-pulses + Binaural Audio Sync",
+        "App Integration": "Nexa Neuro Hub (iOS, Android, macOS, Windows)"
+      }
+    },
+    {
+      "id": 8,
+      "name": "HoloVision AR Neural Glasses",
+      "slug": "holovision-ar-neural-glasses",
+      "category_id": 3,
+      "category_name": "Smart Bio & Neuro Wearables",
+      "price": 74999,
+      "original_price": 91499,
+      "stock": 25,
+      "rating": 4.86,
+      "reviews_count": 37,
+      "badge": "Flagship",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=800&q=80",
+      "description": "Ultra-lightweight titanium smart glasses with Micro-OLED waveguide optics. Real-time live AI captioning, facial recognition contextual recall, and spatial HUD.",
+      "features": {
+        "Display": "Dual 4K Micro-OLED 90Hz Waveguides",
+        "Field of View": "52° Diagonal FOV",
+        "Weight": "68 grams (Prescription Compatible)",
+        "Audio": "Directional Bone-Conduction Acoustic Arrays",
+        "Battery Life": "8 Hours Mixed AR Usage"
+      }
+    },
+    {
+      "id": 9,
+      "name": "BioGrip Haptic Spatial Gloves",
+      "slug": "biogrip-haptic-spatial-gloves",
+      "category_id": 3,
+      "category_name": "Smart Bio & Neuro Wearables",
+      "price": 42999,
+      "original_price": 49999,
+      "stock": 19,
+      "rating": 4.71,
+      "reviews_count": 22,
+      "badge": null,
+      "is_featured": false,
+      "image_url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
+      "description": "Kinesthetic feedback gloves providing physical resistance when touching virtual objects in VR/AR or controlling remote tele-operated robotic arms.",
+      "features": {
+        "Force Feedback": "Up to 20N per finger brake force",
+        "Tracking": "IMU + Optical Markerless Sub-Millimeter tracking",
+        "Texture Simulation": "High-bandwidth piezoelectric actuators",
+        "Connectivity": "Ultra-Wideband (UWB) + Bluetooth 5.4",
+        "Material": "Breathable conductive polymer mesh"
+      }
+    },
+    {
+      "id": 10,
+      "name": "PrismSpatial 3D Hologram Display",
+      "slug": "prismspatial-3d-hologram-display",
+      "category_id": 4,
+      "category_name": "Holographic & Vision Systems",
+      "price": 145999,
+      "original_price": 166499,
+      "stock": 11,
+      "rating": 4.94,
+      "reviews_count": 26,
+      "badge": "Futuristic",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80",
+      "description": "Glasses-free 3D light field display. Projects interactive volumetric models, CAD designs, and AI avatars floating in realistic depth before your eyes.",
+      "features": {
+        "Screen Size": "16-inch 8K Volumetric Light-Field Glass",
+        "View Angle": "100° multi-viewer parallax zone",
+        "Eye Tracking": "Integrated dual stereoscopic gaze sensors",
+        "Color Accuracy": "100% DCI-P3 Color Gamut",
+        "Input": "USB-C DisplayPort 2.1 + HDMI 2.1"
+      }
+    },
+    {
+      "id": 11,
+      "name": "OmniSense LiDAR-Camera Rig",
+      "slug": "omnisense-lidar-camera-rig",
+      "category_id": 4,
+      "category_name": "Holographic & Vision Systems",
+      "price": 95999,
+      "original_price": 107999,
+      "stock": 15,
+      "rating": 4.83,
+      "reviews_count": 18,
+      "badge": null,
+      "is_featured": false,
+      "image_url": "https://images.unsplash.com/photo-1516192515950-c454e7d4b829?auto=format&fit=crop&w=800&q=80",
+      "description": "Plug-and-play spatial perception rig combining 64-channel solid-state LiDAR with quad 4K high-dynamic-range cameras for immediate Gaussian Splatting and dense point cloud generation.",
+      "features": {
+        "Range": "0.1m - 120m distance accuracy",
+        "Points/Sec": "1.5 Million 3D points per second",
+        "Synchronization": "Hardware PTP IEEE 1588 time sync",
+        "Ingress Protection": "IP67 Weatherproof enclosure",
+        "SDK": "C++, Python, Unity, Unreal Engine 5"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Nexa Cortex Home Master Tower",
+      "slug": "nexa-cortex-home-master-tower",
+      "category_id": 5,
+      "category_name": "Edge AI & Smart Hubs",
+      "price": 66499,
+      "original_price": 74999,
+      "stock": 30,
+      "rating": 4.89,
+      "reviews_count": 48,
+      "badge": "Popular",
+      "is_featured": true,
+      "image_url": "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=800&q=80",
+      "description": "Private, localized smart intelligence for modern homes. Runs offline LLMs and computer vision models locally so your home automation data never leaves your premises.",
+      "features": {
+        "Local AI Engine": "Runs Llama-3-8B and Whisper locally at 40 tokens/sec",
+        "Smart Home Radios": "Matter, Thread, Zigbee 3.0, Z-Wave, Wi-Fi 7",
+        "Storage": "2TB NVMe Gen4 encrypted drive",
+        "Microphones": "6-mic far-field acoustic array with hardware kill switch",
+        "Security": "TPM 2.0 Hardware Root of Trust"
+      }
+    },
+    {
+      "id": 13,
+      "name": "ZeroLatency Neural Beam Translator",
+      "slug": "zerolatency-neural-beam-translator",
+      "category_id": 5,
+      "category_name": "Edge AI & Smart Hubs",
+      "price": 24999,
+      "original_price": 28999,
+      "stock": 50,
+      "rating": 4.77,
+      "reviews_count": 64,
+      "badge": "Best Value",
+      "is_featured": false,
+      "image_url": "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=800&q=80",
+      "description": "Desktop voice isolation microphone and bidirectional translation unit. Silences 100% of background noise and translates 45 languages with synthesized voice cloning in under 150ms.",
+      "features": {
+        "Latency": "Sub-150ms bi-directional speech conversion",
+        "Language Support": "45 Languages offline without cloud connection",
+        "Microphone": "4-Element Studio Grade MEMS array",
+        "Speaker": "Spatial audio driver for crystal clear dialog",
+        "Interface": "Touch capacitive OLED screen + USB-C"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 2,
+      "user_name": "Alex Vance",
+      "rating": 5,
+      "comment": "The 980 TOPS on the NPU-900 are mind-blowing. Running local models at 80 tokens/sec with zero latency. Packaging and cooling are top tier.",
+      "created_at": "2026-10-15 14:22:00"
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "user_id": 1,
+      "user_name": "Admin Commander",
+      "rating": 5,
+      "comment": "Validated in our production clusters. Thermals remain under 62°C even during sustained multi-hour fine-tuning runs.",
+      "created_at": "2026-10-18 09:12:00"
+    },
+    {
+      "id": 3,
+      "product_id": 4,
+      "user_id": 2,
+      "user_name": "Alex Vance",
+      "rating": 5,
+      "comment": "The GPS-denied obstacle avoidance handled dense forest branches effortlessly. The footage looks like a high-budget sci-fi film.",
+      "created_at": "2026-10-22 17:45:00"
+    },
+    {
+      "id": 4,
+      "product_id": 8,
+      "user_id": 2,
+      "user_name": "Alex Vance",
+      "rating": 5,
+      "comment": "These AR glasses are sleek! People do not even realize they are smart glasses. The live translation HUD is magic.",
+      "created_at": "2026-10-28 11:30:00"
+    }
+  ],
+  "orders": [
+    {
+      "id": 4,
+      "order_number": "NEXA-58028",
+      "user_id": 2,
+      "total_amount": 63718.82,
+      "discount_amount": 0,
+      "shipping_amount": 0,
+      "tax_amount": 9719.82,
+      "status": "Shipped",
+      "payment_status": "Paid",
+      "payment_method": "Simulated AI Pay (Visa/MC)",
+      "shipping_address": {
+        "fullName": "Alex Vance",
+        "email": "alex@nexacart.ai",
+        "street": "Flat 402, Neo Tech Heights, Whitefield, Bengaluru, KA 560066",
+        "city": "Neo Metropolis",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "United States"
+      },
+      "created_at": "2026-11-01T21:00:29.833Z",
+      "items": [
+        {
+          "id": 1,
+          "order_id": 4,
+          "product_id": 2,
+          "product_name": "Synapse Core X1 Module",
+          "price": 53999,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "order_number": "NEXA-59838",
+      "user_id": 2,
+      "total_amount": 147498.82,
+      "discount_amount": 0,
+      "shipping_amount": 0,
+      "tax_amount": 22499.82,
+      "status": "Processing",
+      "payment_status": "Paid",
+      "payment_method": "Simulated AI Pay (UPI/Card)",
+      "shipping_address": {
+        "fullName": "Alex Vance",
+        "street": "Flat 402, Neo Tech Heights",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zipCode": "560066"
+      },
+      "created_at": "2026-11-01T20:55:26.768Z",
+      "items": [
+        {
+          "id": 1,
+          "order_id": 3,
+          "product_id": 1,
+          "product_name": "Nexa Quantum NPU-900",
+          "price": 124999,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1591488320449-011701bb6704"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "order_number": "NEXA-89412",
+      "user_id": 2,
+      "total_amount": 124999,
+      "discount_amount": 0,
+      "shipping_amount": 0,
+      "tax_amount": 9999.92,
+      "status": "Delivered",
+      "payment_status": "Paid",
+      "payment_method": "Simulated AI Pay (UPI/Card)",
+      "shipping_address": {
+        "fullName": "Alex Vance",
+        "street": "Flat 402, Neo Tech Heights, Whitefield",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zipCode": "560066",
+        "country": "India"
+      },
+      "created_at": "2026-10-14 10:15:00",
+      "items": [
+        {
+          "id": 1,
+          "order_id": 1,
+          "product_id": 1,
+          "product_name": "Nexa Quantum NPU-900",
+          "price": 124999,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "order_number": "NEXA-92841",
+      "user_id": 2,
+      "total_amount": 107998,
+      "discount_amount": 8000,
+      "shipping_amount": 0,
+      "tax_amount": 7999.84,
+      "status": "Shipped",
+      "payment_status": "Paid",
+      "payment_method": "UPI / NetBanking (Simulated)",
+      "shipping_address": {
+        "fullName": "Alex Vance",
+        "street": "Flat 402, Neo Tech Heights, Whitefield",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zipCode": "560066",
+        "country": "India"
+      },
+      "created_at": "2026-10-27 16:40:00",
+      "items": [
+        {
+          "id": 2,
+          "order_id": 2,
+          "product_id": 7,
+          "product_name": "NeuroSync Focus Band V2",
+          "price": 32999,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 3,
+          "order_id": 2,
+          "product_id": 8,
+          "product_name": "HoloVision AR Neural Glasses",
+          "price": 74999,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    }
+  ]
+}
